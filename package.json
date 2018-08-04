@@ -1,5 +1,6 @@
 {
   "name": "todo",
+  "homepage": "https://davidkarolyi.gitlab.io/TaskManager/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
