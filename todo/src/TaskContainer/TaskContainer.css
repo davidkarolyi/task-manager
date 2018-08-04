@@ -1,0 +1,35 @@
+.myContainer{
+    position: relative;
+    display: inline-block;
+    /* border:.5rem double #e66e6e; */
+    border: .2rem solid rgba(10, 19, 39,1);
+    border-radius: 1rem;
+    height: 100%;
+    width: 30%;
+    box-shadow: 0rem .1rem 2rem .1rem rgba(255, 255, 255, 0.3)/* #e66e6ec2 */;
+    top: 0;
+    bottom:0;
+    /* left:10vh; */
+    background:rgba(81, 102, 44, 0.9)/* #fa8e352f */;
+    margin-top:0;
+    /* padding-top:2rem;  */
+    
+}
+.warning{
+    text-align:center;
+    font-size: 2rem;
+    padding-top:50%;
+    color: rgba(10, 19, 39,.1);
+    animation:textAnimation 3s ease-out infinite;
+}
+@keyframes textAnimation{
+    0%{
+        color: rgba(10, 19, 39,1);
+    }
+    40%{
+        color: rgba(10, 19, 39,.1);
+    }
+    100%{
+        color: rgba(10, 19, 39,1);
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');/* @import url('https://fonts.googleapis.com/css?family=Lobster'); */
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box; 
+}
+body{
+  font-family: 'Amatic SC';/* font-family: 'Lobster'; */
+  font-size: 10px;
+  color:rgb(230, 230, 233);
+  width: 100vw;
+  height: 100vh;
+  /* background-image:linear-gradient(-45deg,rgba(42, 46, 39, 0.8),rgba(172, 235, 100, 0.8)), url('./bg2.jpg'); */
+  background-image:linear-gradient(180deg,rgba(172, 235, 100, .6),rgba(172, 235, 100, 0.0)30%), url('./tinified/bg.jpg');
+  background-size: 100vw 100vh;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  z-index:-1;
+  overflow: hidden;
+}
+

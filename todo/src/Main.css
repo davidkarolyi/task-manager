@@ -1,0 +1,10 @@
+#helpMe{
+   position: absolute;
+   top: 10px;
+   right:10px;
+   transition: 100ms;
+   cursor: pointer;
+}
+#helpMe:hover{
+    width:35px;
+}
